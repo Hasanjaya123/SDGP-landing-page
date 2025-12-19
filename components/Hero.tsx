@@ -97,8 +97,8 @@ export const Hero: React.FC = () => {
             </div>
             <div className="w-px h-12 bg-gradient-to-b from-transparent via-black/30 to-transparent" />
             <div>
-              <p className="text-3xl font-serif font-bold text-black">$2M</p>
-              <p className="text-black font-semibold">Art Tokenized</p>
+              <p className="text-3xl font-serif font-bold text-black">2M</p>
+              <p className="text-black font-semibold">Arts</p>
             </div>
           </div>
         </div>
