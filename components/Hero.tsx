@@ -1,7 +1,7 @@
 import React from 'react';
 import { Play, ArrowRight } from 'lucide-react';
 
-const YOUTUBE_LINK = "https://www.youtube.com/watch?v=qyvdYnTtBfE";
+const VIDEO_LINK = "/videos/abstract.mp4";
 
 export const Hero: React.FC = () => {
   const getVideoId = (url: string) => {
@@ -11,8 +11,8 @@ export const Hero: React.FC = () => {
     return (match && match[2].length === 11) ? match[2] : null;
   };
 
-  const videoId = getVideoId(YOUTUBE_LINK);
-  const isDirectFile = YOUTUBE_LINK.match(/\.(mp4|webm|ogg)$/);
+  const videoId = getVideoId(VIDEO_LINK);
+  const isDirectFile = VIDEO_LINK.match(/\.(mp4|webm|ogg)$/);
 
   return (
     <section id="mission" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-brand-cream w-full">
@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
           <div className="absolute inset-0 w-full h-full pointer-events-none">
              <iframe 
                 className="w-full h-full object-cover scale-150 md:scale-100" // Slight scale on mobile to cover gaps
-                src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&playsinline=1&enablejsapi=1`}
+                src={`${VIDEO_LINK}`}
                 title="Background Video"
                 allow="autoplay; encrypted-media" 
                 style={{ border: 'none' }} 
@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
           </div>
         ) : isDirectFile ? (
             <video autoPlay loop muted playsInline className="absolute w-full h-full object-cover">
-                <source src={YOUTUBE_LINK} type="video/mp4" />
+                <source src={VIDEO_LINK} type="video/mp4" />
             </video>
         ) : null}
       </div>
