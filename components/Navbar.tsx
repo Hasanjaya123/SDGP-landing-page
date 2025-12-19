@@ -47,11 +47,8 @@ export const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-2 group cursor-pointer">
-          <div className="bg-black text-white p-2.5 rounded-xl shadow-lg group-hover:rotate-12 transition-transform duration-300">
-            <Palette size={24} />
-          </div>
           <img 
-            src="soliasartlogo.jpeg" 
+            src="/soliasartlogo.jpeg" 
             alt="SoliasArt" 
             className="h-8 w-auto transition-all duration-300"
           />
