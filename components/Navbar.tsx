@@ -48,9 +48,9 @@ export const Navbar: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-2 group cursor-pointer">
           <img 
-            src="/soliasartlogo.jpeg" 
+            src="/images/soliasartlogo.jpeg" 
             alt="SoliasArt" 
-            className="h-8 w-auto transition-all duration-300"
+            className="h-10 w-auto transition-all duration-300"
           />
         </div>
 
