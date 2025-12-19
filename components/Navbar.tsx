@@ -50,9 +50,11 @@ export const Navbar: React.FC = () => {
           <div className="bg-black text-white p-2.5 rounded-xl shadow-lg group-hover:rotate-12 transition-transform duration-300">
             <Palette size={24} />
           </div>
-          <span className="text-2xl font-serif font-bold text-black tracking-tight transition-all duration-300">
-            SoliasArt
-          </span>
+          <img 
+            src="soliasartlogo.jpeg" 
+            alt="SoliasArt" 
+            className="h-8 w-auto transition-all duration-300"
+          />
         </div>
 
         {/* Desktop Nav */}
