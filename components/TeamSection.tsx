@@ -66,7 +66,7 @@ export const TeamSection: React.FC = () => {
             <h2 className="text-3xl md:text-5xl font-serif font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">The Team behind the project</h2>
           </div>
           <p className="text-gray-400 max-w-md text-sm leading-relaxed border-l-2 border-brand-orange pl-4">
-            Our team of 6 combines deep industry knowledge of the Asian art market with world-class technical expertise in AI and immersive media.
+            Our team of 6 combines deep knowledge in the sri lankan art market with technical expertise in AI and immersive media.
           </p>
         </div>
 
