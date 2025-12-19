@@ -18,13 +18,10 @@ export const Hero: React.FC = () => {
     <section id="mission" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-brand-cream">
       
       {/* 1. BACKGROUND VIDEO LAYER */}
-      {/* Removed 'opacity-30' to make video fully visible */}
       <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
         {videoId ? (
-          /* Changed width/height from 300% to 100% (w-full h-full) to fit the section */
-          <div className="absolute inset-0 w-full h-full pointer-events-none">
+          <div className="absolute inset-0 w-full h-full pointer-events-none overflow-hidden">
              <iframe 
-                /* Removed 'grayscale' for full visibility. Add it back if you want B&W. */
                 className="w-full h-full object-cover"
                 src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&playsinline=1&enablejsapi=1`}
                 title="Background Video"
@@ -49,7 +46,7 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 z-2 bg-gradient-to-r from-brand-cream/80 via-brand-cream/40 to-transparent pointer-events-none" />
 
       {/* 4. CONTENT LAYER (Highest z-index) */}
-      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10 w-full overflow-hidden">
         {/* Left Column */}
         <div className="space-y-8">
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-brand-dark leading-[1.1]">
