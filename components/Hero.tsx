@@ -30,11 +30,11 @@ export const Hero: React.FC = () => {
       <div className="absolute top-1/2 right-1/4 w-64 h-64 bg-brand-gold/40 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-1000"></div>
 
       {/* 2. BACKGROUND VIDEO LAYER (Absolute Bottom) */}
-      <div className="absolute inset-0 w-full h-full z-5 overflow-hidden opacity-40 mix-blend-overlay">
+      <div className="absolute inset-0 w-full h-full z-5 overflow-hidden opacity-80 mix-blend-overlay">
         {videoId ? (
           <div className="absolute top-1/2 left-1/2 w-[300%] h-[300%] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
              <iframe 
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
                 src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&playsinline=1&enablejsapi=1&origin=${window.location.origin}`}
                 title="Background Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -57,7 +57,7 @@ export const Hero: React.FC = () => {
       </div>
 
       {/* 3. GRADIENT OVERLAY */}
-      <div className="absolute inset-0 z-15 bg-gradient-to-r from-brand-cream via-brand-cream/80 to-brand-cream/30 pointer-events-none" />
+      <div className="absolute inset-0 z-15 bg-gradient-to-r from-brand-cream/85 via-brand-cream/60 to-brand-cream/20 pointer-events-none" />
 
       {/* 4. CONTENT LAYER */}
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-20">
