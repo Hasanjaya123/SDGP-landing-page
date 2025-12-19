@@ -14,7 +14,7 @@ const team: TeamMember[] = [
   {
     id: '2',
     name: 'Thinal Prabasha',
-    role: 'Tech Lead',
+    role: 'Member',
     bio: '',
     imageUrl: '/images/thinal.jpg',
     socials: { linkedin: 'https://www.linkedin.com/in/thinal-prabasha/?originalSubdomain=lk' }
@@ -22,7 +22,7 @@ const team: TeamMember[] = [
   {
     id: '3',
     name: 'Dulitha Nadith',
-    role: 'Lead Designer',
+    role: 'Member',
     bio: '',
     imageUrl: '',
     socials: { linkedin: '#' }
@@ -30,7 +30,7 @@ const team: TeamMember[] = [
   {
     id: '4',
     name: 'Senanayake Arachchige',
-    role: 'AI Specialist',
+    role: 'Member',
     bio: '',
     imageUrl: '',
     socials: { linkedin: '#' }
@@ -38,7 +38,7 @@ const team: TeamMember[] = [
   {
     id: '5',
     name: 'Kariyawasam Godakandage',
-    role: 'Mobile Developer',
+    role: 'Member',
     bio: '',
     imageUrl: '',
     socials: { linkedin: '#' }
@@ -46,7 +46,7 @@ const team: TeamMember[] = [
   {
     id: '6',
     name: 'Sevin Kawsika',
-    role: 'Marketing Strategist',
+    role: 'Member',
     bio: '',
     imageUrl: '',
     socials: { linkedin: '#' }
