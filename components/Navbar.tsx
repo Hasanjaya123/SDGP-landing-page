@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
           <img 
             src="/images/soliasartlogo.png" 
             alt="SoliasArt" 
-            className="h-14 w-auto transition-all duration-300"
+            className="h-12 w-auto transition-all duration-300"
           />
         </div>
 
