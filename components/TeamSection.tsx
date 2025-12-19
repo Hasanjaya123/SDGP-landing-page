@@ -7,15 +7,15 @@ const team: TeamMember[] = [
     id: '1',
     name: 'Hasanjaya Perera',
     role: 'Team Leader',
-    bio: 'Visionary leader guiding the strategic direction and development of the SoliasArt platform.',
+    bio: '',
     imageUrl: '/images/hasanjaya.jpg',
-    socials: { linkedin: 'https://www.linkedin.com/in/hasanjaya-perera-297720244/?originalSubdomain=lk', twitter: '#' }
+    socials: { linkedin: 'https://www.linkedin.com/in/hasanjaya-perera-297720244/?originalSubdomain=lk'}
   },
   {
     id: '2',
     name: 'Thinal Prabasha',
     role: 'Tech Lead',
-    bio: 'Expert in scalable architecture and full-stack development, driving the technical vision.',
+    bio: '',
     imageUrl: '/images/thinal.jpg',
     socials: { linkedin: 'https://www.linkedin.com/in/thinal-prabasha/?originalSubdomain=lk' }
   },
@@ -23,7 +23,7 @@ const team: TeamMember[] = [
     id: '3',
     name: 'Dulitha Nadith',
     role: 'Lead Designer',
-    bio: 'Crafting intuitive and beautiful user experiences that bridge art and technology.',
+    bio: '',
     imageUrl: '',
     socials: { linkedin: '#' }
   },
@@ -31,7 +31,7 @@ const team: TeamMember[] = [
     id: '4',
     name: 'Senanayake Arachchige',
     role: 'AI Specialist',
-    bio: 'Focusing on computer vision algorithms and recommendation engines.',
+    bio: '',
     imageUrl: '',
     socials: { linkedin: '#' }
   },
@@ -39,7 +39,7 @@ const team: TeamMember[] = [
     id: '5',
     name: 'Kariyawasam Godakandage',
     role: 'Mobile Developer',
-    bio: 'Ensuring a seamless and responsive experience across all mobile devices.',
+    bio: '',
     imageUrl: '',
     socials: { linkedin: '#' }
   },
@@ -47,7 +47,7 @@ const team: TeamMember[] = [
     id: '6',
     name: 'Sevin Kawsika',
     role: 'Marketing Strategist',
-    bio: 'Connecting the platform with artists and collectors to grow the community.',
+    bio: '',
     imageUrl: '',
     socials: { linkedin: '#' }
   }
