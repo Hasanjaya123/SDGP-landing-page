@@ -63,7 +63,7 @@ export const TeamSection: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div className="max-w-2xl">
             <span className="text-brand-cyan font-bold tracking-widest text-xs uppercase mb-2 block">The Visionaries</span>
-            <h2 className="text-3xl md:text-5xl font-serif font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Built by Collectors & <br />Engineers</h2>
+            <h2 className="text-3xl md:text-5xl font-serif font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">The Team behind the project</h2>
           </div>
           <p className="text-gray-400 max-w-md text-sm leading-relaxed border-l-2 border-brand-orange pl-4">
             Our team of 6 combines deep industry knowledge of the Asian art market with world-class technical expertise in AI and immersive media.
