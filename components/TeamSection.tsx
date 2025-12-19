@@ -8,7 +8,7 @@ const team: TeamMember[] = [
     name: 'Hasanjaya Perera',
     role: 'Team Leader',
     bio: 'Visionary leader guiding the strategic direction and development of the SoliasArt platform.',
-    imageUrl: '.\\images\\hasanjaya.jpg',
+    imageUrl: './images/hasanjaya.jpg',
     socials: { linkedin: 'https://www.linkedin.com/in/hasanjaya-perera-297720244/?originalSubdomain=lk', twitter: '#' }
   },
   {
@@ -16,7 +16,7 @@ const team: TeamMember[] = [
     name: 'Thinal Prabasha',
     role: 'Tech Lead',
     bio: 'Expert in scalable architecture and full-stack development, driving the technical vision.',
-    imageUrl: '\images\thinal.jpg',
+    imageUrl: './images/thinal.jpg',
     socials: { linkedin: 'https://www.linkedin.com/in/thinal-prabasha/?originalSubdomain=lk' }
   },
   {
