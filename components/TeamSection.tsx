@@ -24,12 +24,12 @@ const team: TeamMember[] = [
     name: 'Dulitha Nadith',
     role: 'Member',
     bio: '',
-    imageUrl: '',
-    socials: { linkedin: '#' }
+    imageUrl: '/images/dulitha.jpeg',
+    socials: { linkedin: 'https://www.linkedin.com/in/dulitha-weerasinghe-6205b0335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
   },
   {
     id: '4',
-    name: 'Senanayake Arachchige',
+    name: 'Nadeesha Damseth',
     role: 'Member',
     bio: '',
     imageUrl: '',
@@ -37,7 +37,7 @@ const team: TeamMember[] = [
   },
   {
     id: '5',
-    name: 'Kariyawasam Godakandage',
+    name: 'Janindu Nanayakkara',
     role: 'Member',
     bio: '',
     imageUrl: '',
@@ -48,8 +48,8 @@ const team: TeamMember[] = [
     name: 'Sevin Kawsika',
     role: 'Member',
     bio: '',
-    imageUrl: '',
-    socials: { linkedin: '#' }
+    imageUrl: '/images/sevin.jpg',
+    socials: { linkedin: 'www.linkedin.com/in/sevin-kawsika-188063230' }
   }
 ];
 
