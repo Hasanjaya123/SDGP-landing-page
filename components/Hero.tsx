@@ -1,9 +1,13 @@
 import React from 'react';
 import { Play, ArrowRight } from 'lucide-react';
 
+
 import { ThreeDMarquee } from '../components/lightswind/3d-marquee'; 
 
 const VIDEO_LINK = "/videos/abstract.mp4";
+
+const VIDEO_LINK = "";
+
 
 
 const heroMarqueeImages = [
