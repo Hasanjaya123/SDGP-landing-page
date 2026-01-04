@@ -1,7 +1,7 @@
 import React from 'react';
 import { Play, ArrowRight } from 'lucide-react';
 
-const VIDEO_LINK = "/videos/abstract.mp4";
+const VIDEO_LINK = "https://www.youtube.com/watch?v=trsHTKqmZOk&t=343s";
 
 export const Hero: React.FC = () => {
   const getVideoId = (url: string) => {
