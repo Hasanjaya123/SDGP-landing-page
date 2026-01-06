@@ -82,7 +82,7 @@ const getColorClass = (index: number) => {
 
 export const FeaturesGrid: React.FC = () => {
   return (
-    <section id="features" className="py-24 bg-white relative">
+    <section id="features" className="py-24 bg-white relative overflow-hidden">
       <div className="absolute top-0 right-0 w-1/3 h-full bg-brand-cream skew-x-12 -z-10 opacity-50"></div>
       
       <div className="container mx-auto px-6">
