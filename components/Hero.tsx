@@ -6,10 +6,6 @@ import { ThreeDMarquee } from '../components/lightswind/3d-marquee';
 
 const VIDEO_LINK = "/videos/abstract.mp4";
 
-const VIDEO_LINK = "";
-
-
-
 const heroMarqueeImages = [
   { src: "https://images.unsplash.com/flagged/photo-1567934150921-7632371abb32?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Abstract Image" },
   { src: "https://plus.unsplash.com/premium_photo-1664013263421-91e3a8101259?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Blue Sculpture" },
