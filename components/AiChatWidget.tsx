@@ -55,8 +55,8 @@ export const AiChatWidget: React.FC = () => {
             <div className="flex items-center gap-2 relative z-10">
               <Sparkles size={18} className="text-brand-gold animate-pulse" />
               <div>
-                <h3 className="font-bold text-sm">Canvas Guide AI</h3>
-                <p className="text-[10px] text-gray-300">Powered by Gemini 2.5</p>
+                <h3 className="font-bold text-sm">SoliasArt AI</h3>
+                <p className="text-[10px] text-gray-300">You can ask anything about the project</p>
               </div>
             </div>
             <button onClick={() => setIsOpen(false)} className="text-gray-400 hover:text-white transition-colors relative z-10">
