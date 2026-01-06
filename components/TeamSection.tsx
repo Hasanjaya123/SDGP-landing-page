@@ -7,49 +7,49 @@ const team: TeamMember[] = [
     id: '1',
     name: 'Hasanjaya Perera',
     role: 'Team Leader',
-    bio: 'Visionary leader guiding the strategic direction and development of the SoliasArt platform.',
-    imageUrl: 'C:\Users\viber\OneDrive\Pictures\Google antigravity\Solius art\soliasart\images\hasanjaya.jpg',
-    socials: { linkedin: 'https://www.linkedin.com/in/hasanjaya-perera-297720244/?originalSubdomain=lk', twitter: '#' }
+    bio: '',
+    imageUrl: '/images/hasanjaya.jpg',
+    socials: { linkedin: 'https://www.linkedin.com/in/hasanjaya-perera-297720244/?originalSubdomain=lk'}
   },
   {
     id: '2',
     name: 'Thinal Prabasha',
-    role: 'Tech Lead',
-    bio: 'Expert in scalable architecture and full-stack development, driving the technical vision.',
-    imageUrl: '',
+    role: 'Member',
+    bio: '',
+    imageUrl: '/images/thinal.jpg',
     socials: { linkedin: 'https://www.linkedin.com/in/thinal-prabasha/?originalSubdomain=lk' }
   },
   {
     id: '3',
     name: 'Dulitha Nadith',
-    role: 'Lead Designer',
-    bio: 'Crafting intuitive and beautiful user experiences that bridge art and technology.',
-    imageUrl: '',
-    socials: { linkedin: '#' }
+    role: 'Member',
+    bio: '',
+    imageUrl: '/images/dulitha.jpeg',
+    socials: { linkedin: 'https://www.linkedin.com/in/dulitha-weerasinghe-6205b0335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
   },
   {
     id: '4',
-    name: 'Senanayake Arachchige',
-    role: 'AI Specialist',
-    bio: 'Focusing on computer vision algorithms and recommendation engines.',
+    name: 'Nadeesha Damseth',
+    role: 'Member',
+    bio: '',
     imageUrl: '',
     socials: { linkedin: '#' }
   },
   {
     id: '5',
-    name: 'Kariyawasam Godakandage',
-    role: 'Mobile Developer',
-    bio: 'Ensuring a seamless and responsive experience across all mobile devices.',
+    name: 'Janindu Nanayakkara',
+    role: 'Member',
+    bio: '',
     imageUrl: '',
     socials: { linkedin: '#' }
   },
   {
     id: '6',
     name: 'Sevin Kawsika',
-    role: 'Marketing Strategist',
-    bio: 'Connecting the platform with artists and collectors to grow the community.',
-    imageUrl: '',
-    socials: { linkedin: '#' }
+    role: 'Member',
+    bio: '',
+    imageUrl: '/images/sevin.jpg',
+    socials: { linkedin: 'www.linkedin.com/in/sevin-kawsika-188063230' }
   }
 ];
 
@@ -63,10 +63,10 @@ export const TeamSection: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div className="max-w-2xl">
             <span className="text-brand-cyan font-bold tracking-widest text-xs uppercase mb-2 block">The Visionaries</span>
-            <h2 className="text-3xl md:text-5xl font-serif font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Built by Collectors & <br />Engineers</h2>
+            <h2 className="text-3xl md:text-5xl font-serif font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">The Team behind the project</h2>
           </div>
           <p className="text-gray-400 max-w-md text-sm leading-relaxed border-l-2 border-brand-orange pl-4">
-            Our team of 6 combines deep industry knowledge of the Asian art market with world-class technical expertise in AI and immersive media.
+            Our team of 6 combines deep knowledge in the sri lankan art market with technical expertise in AI and immersive media.
           </p>
         </div>
 

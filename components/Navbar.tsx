@@ -47,12 +47,11 @@ export const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-2 group cursor-pointer">
-          <div className="bg-black text-white p-2.5 rounded-xl shadow-lg group-hover:rotate-12 transition-transform duration-300">
-            <Palette size={24} />
-          </div>
-          <span className="text-2xl font-serif font-bold text-black tracking-tight transition-all duration-300">
-            SoliasArt
-          </span>
+          <img 
+            src="/images/soliasartlogo.png" 
+            alt="SoliasArt" 
+            className="h-12 w-auto transition-all duration-300"
+          />
         </div>
 
         {/* Desktop Nav */}
