@@ -8,12 +8,13 @@ export const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-6">
-              <div className="bg-art-900 text-white p-1.5 rounded-lg">
-                <Palette size={20} />
+              <div className="flex items-center gap-2 group cursor-pointer">
+               <img 
+                 src="/images/soliasartlogo.png" 
+                 alt="SoliasArt" 
+                 className="h-12 w-auto transition-all duration-300"
+                 />
               </div>
-              <span className="text-xl font-serif font-bold text-art-900">
-                SoliasArt
-              </span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed max-w-sm mb-6">
               Reimagining the art market through technology. We empower artists and connect collectors with the soul of Sri Lankan creativity.
