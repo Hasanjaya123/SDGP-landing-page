@@ -12,7 +12,7 @@ The Problem We Solve:
 - The Consequence: Significant economic loss for artists and a missed chance for Sri Lanka to project its cultural identity.
 
 Our Solution:
-A "Social Media + Art Store" hybrid.
+A "Social Media + Art Store" hybrid (Social Commerece Website).
 1. Personalized "For You" Feed: Uses ML collaborative filtering to show art users will love.
 2. Visual Search & Style Matching: CV model allows searching by uploading a photo to find similar styles/colors.
 3. Augmented Reality (AR) Try-On: "Try Before You Buy" projecting art onto the user's wall to scale.

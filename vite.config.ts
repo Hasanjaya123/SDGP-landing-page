@@ -10,11 +10,7 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
       plugins: [react()],
-<<<<<<< HEAD
-      base: "/SDGP-landing-page",
-=======
       base: process.env.VITE_BASE_PATH || "/SDGP-landing-page",
->>>>>>> c4abb06a023b5736c35779006bfd792aa8bb1f89
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
         'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
