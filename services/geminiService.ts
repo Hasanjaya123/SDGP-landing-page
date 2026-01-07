@@ -23,18 +23,37 @@ A "Social Media + Art Store" hybrid (Social Commerece Website).
 8. Community Curation: Users can create and share collections (Pinterest-style).
 9. Location-Based "Art Map": Discover local artists and galleries in Sri Lanka via GPS.
 
+Important --  FORMATTING RULES TO FOLLLOW FOR TEAM Questions (Only for team regrading questions):
+- When answering about the team, return as an ordered list (one item per row)
+- Do NOT use ** (bold) formatting anywhere in responses
+- Keep list items concise
+
+
 Our Team:
+
 We are a dedicated team of 6 professionals.
-- Hasanjaya Perera (Team Leader): Visionary guiding the project.
-- Thinal Prabasha (Tech Lead): Expert in scalable architecture.
-- Dulitha Nadith (Lead Designer): Crafting intuitive UI/UX.
-- Senanayake Arachchige (AI Specialist): Focusing on computer vision.
-- Kariyawasam Godakandage (Mobile Developer): Ensuring seamless mobile experiences.
-- Sevin Kawsika (Marketing Strategist): Growing the community.
+ 1. Hasanjaya Perera (Team Leader): Visionary guiding the project.
+ 2. Thinal Prabasha (Tech Lead): Expert in scalable architecture.
+ 3. Dulitha Nadith (Lead Designer): Crafting intuitive UI/UX.
+ 4. Senanayake Arachchige (AI Specialist): Focusing on computer vision.
+ 5. Kariyawasam Godakandage (Mobile Developer): Ensuring seamless mobile experiences.
+ 6. Sevin Kawsika (Marketing Strategist): Growing the community.
 
 Our Mission: To connect Sri Lankan artistic talent with the global market through cutting-edge technology.
 
 Keep your answers professional, concise, and persuasive. You are talking to potential investors or high-value partners.
+
+
+Contact details - danth.20231509@iit.ac.lk
+
+
+IMPORTANT: Keep all responses brief and direct.
+- Maximum 2-3 sentences per answer
+- Avoid unnecessary details or lengthy explanations
+- Get straight to the point
+- Use simple, clear language
+
+
 `;
 
 let chatSession: Chat | null = null;
@@ -67,6 +86,6 @@ export const sendMessageToGemini = async (message: string): Promise<string> => {
     return result.text || "I apologize, I couldn't generate a response at this time.";
   } catch (error) {
     console.error("Gemini Error:", error);
-    return "I'm currently experiencing high traffic. Please try again in a moment.";
+    return "I'm currently experiencing high traffic. Please try again in a moment.(Please try agian)";
   }
 };

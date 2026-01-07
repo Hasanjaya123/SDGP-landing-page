@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Partner } from '../types';
-import { Building2, Truck, Cpu, Network, GraduationCap } from 'lucide-react';
+import { Building2, Truck, Cpu, Network, GraduationCap, X } from 'lucide-react';
 
 const partners: Partner[] = [
   {
