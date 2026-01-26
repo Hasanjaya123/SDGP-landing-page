@@ -23,7 +23,7 @@ export const ProblemSection: React.FC = () => {
               <AlertCircle size={24} className="text-red-500" />
               The Core Problem
             </h3>
-            <p className="text-red-900/80 font-bold text-lg font-serif relative z-10">
+            <p className="text-red-900/80 text-lg font-bold font-serif relative z-10">
               "However, this talent remains largely invisible, unmonetized, and disconnected from a global audience. There is no centralized digital ecosystem that bridges the gap between Sri Lankan creators and the global market."
             </p>
           </div>
