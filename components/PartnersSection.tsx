@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Partner } from '../types';
-import { Building2, Truck, Cpu, Network, GraduationCap, X } from 'lucide-react';
+import { Building2, Truck, Cpu, Network, GraduationCap } from 'lucide-react';
 
 const partners: Partner[] = [
   {
@@ -60,7 +60,7 @@ export const PartnersSection: React.FC = () => {
                We are currently accepting applications for new gallery partners and strategic investors for our upcoming Series A.
              </p>
              <button className="bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-gray-200 transition-all shadow-lg transform hover:scale-105 duration-300">
-               Contact Relations
+               Contact Us
              </button>
            </div>
         </div>
