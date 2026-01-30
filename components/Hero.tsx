@@ -94,7 +94,7 @@ export const Hero: React.FC = () => {
             <div className="w-px h-12 bg-gray-300"></div>
             <div>
               <p className="text-3xl font-bold font-serif">2M</p>
-              <p className="text-sm font-semibold text-gray-600">Art Tokenized</p>
+              <p className="text-sm font-semibold text-gray-600">Arts</p>
             </div>
           </div>
         </div>
