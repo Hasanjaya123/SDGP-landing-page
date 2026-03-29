@@ -69,8 +69,8 @@ export const Navbar: React.FC = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
-          <button className="bg-black text-white px-7 py-2.5 rounded-full text-sm font-bold shadow-lg hover:bg-gray-900 hover:scale-105 transition-all transform border border-transparent">
-            Login
+          <button className="bg-black text-white px-7 py-2.5 rounded-full text-sm font-bold shadow-lg hover:bg-[#D9A84A] transition-colors">
+            <a href="https://soliasart.com/login" className="text-white no-underline">Login</a>
           </button>
         </div>
 
@@ -91,13 +91,13 @@ export const Navbar: React.FC = () => {
               key={link.name} 
               href={link.href}
               onClick={(e) => handleNavClick(e, link.href)}
-              className="text-xl font-serif font-medium text-gray-800 cursor-pointer hover:text-black hover:pl-2 transition-all"
+              className="text-xl font-sans font-medium text-gray-800 cursor-pointer hover:text-black hover:pl-2 transition-all"
             >
               {link.name}
             </a>
           ))}
-          <button className="w-full bg-black text-white py-4 rounded-xl font-bold shadow-lg hover:bg-gray-900">
-            Login
+          <button className="w-full bg-black text-white py-4 rounded-xl font-bold shadow-lg hover:bg-[#D9A84A] transition-colors">
+            <a href="https://soliasart.com/login" className="text-white no-underline">Login</a>
           </button>
         </div>
       )}

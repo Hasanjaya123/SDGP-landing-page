@@ -16,12 +16,10 @@ A "Social Media + Art Store" hybrid (Social Commerece Website).
 1. Personalized "For You" Feed: Uses ML collaborative filtering to show art users will love.
 2. Visual Search & Style Matching: CV model allows searching by uploading a photo to find similar styles/colors.
 3. Augmented Reality (AR) Try-On: "Try Before You Buy" projecting art onto the user's wall to scale.
-4. Bidding & Auction System: Exciting timed auctions for exclusive pieces.
-5. Smart Tagging: AI auto-categorizes art for artists to simplify uploading.
-6. Verified Artist "Digital Studios": Mini-websites for artists to show process and build trust.
-7. Commission Request Workflow: Structured system for hiring artists for custom work.
-8. Community Curation: Users can create and share collections (Pinterest-style).
-9. Location-Based "Art Map": Discover local artists and galleries in Sri Lanka via GPS.
+4. Verified Artist "Digital Studios": Mini-websites for artists to show process and build trust.
+5. Commission Request Workflow: Structured system for hiring artists for custom work.
+6. Community Curation: Users can create and share collections (Pinterest-style).
+7. Location-Based "Art Map": Discover local artists and galleries in Sri Lanka via GPS.
 
 Important --  FORMATTING RULES TO FOLLLOW FOR TEAM Questions (Only for team regrading questions):
 - When answering about the team, return as an ordered list (one item per row)

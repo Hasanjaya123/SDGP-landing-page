@@ -78,10 +78,10 @@ export const Hero: React.FC = () => {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <button className="bg-black text-white px-8 py-4 rounded-full font-bold flex items-center gap-2 hover:bg-gray-900 transition-colors">
-              Sign Up Now <ArrowRight size={18} />
+            <button className="bg-black text-white px-8 py-4 rounded-full font-bold flex items-center gap-2 hover:bg-[#D9A84A] transition-colors">
+             <a href="https://www.soliasart.com/signup" className="text-white no-underline"> Sign Up Now </a> <ArrowRight size={18} />
             </button>
-            <button className="flex items-center gap-2 bg-white/80 backdrop-blur-sm px-8 py-4 rounded-full font-bold hover:bg-white transition-colors shadow-sm">
+            <button className="flex items-center gap-2 bg-white/80 backdrop-blur-sm px-8 py-4 rounded-full font-bold hover:bg-white transition-colors shadow-sm hover:text-[#D9A84A]">
               <Play size={18} fill="currentColor" /> Watch Demo
             </button>
           </div>
