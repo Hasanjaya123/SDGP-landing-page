@@ -8,7 +8,7 @@ const team: TeamMember[] = [
     name: 'Hasanjaya Perera',
     role: 'Team Leader',
     bio: '',
-    imageUrl: '/images/hasanjaya.jpg',
+    imageUrl: '/images/hasanjaya.jpeg',
     socials: { linkedin: 'https://www.linkedin.com/in/hasanjaya-perera-297720244/?originalSubdomain=lk'}
   },
   {

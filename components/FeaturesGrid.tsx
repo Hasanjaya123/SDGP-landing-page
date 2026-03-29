@@ -19,16 +19,6 @@ const features: Feature[] = [
     iconName: 'Box'
   },
   {
-    title: 'Live Auctions',
-    description: 'Real-time bidding system driving excitement and higher value.',
-    iconName: 'Gavel'
-  },
-  {
-    title: 'Smart Tagging',
-    description: 'Automated categorization for artists using image recognition.',
-    iconName: 'Tag'
-  },
-  {
     title: 'Verified Studios',
     description: 'Mini-websites for artists to share their process and build trust.',
     iconName: 'UserCheck'
@@ -37,11 +27,6 @@ const features: Feature[] = [
     title: 'Commissions',
     description: 'Seamless workflow for requesting and managing custom art pieces.',
     iconName: 'PenTool'
-  },
-  {
-    title: 'Community Collections',
-    description: 'Curate public collections and discover guest curator picks.',
-    iconName: 'Users'
   },
   {
     title: 'Art Map',
