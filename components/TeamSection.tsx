@@ -16,7 +16,7 @@ const team: TeamMember[] = [
     name: 'Thinal Prabasha',
     role: 'Member',
     bio: '',
-    imageUrl: '/images/thinal.jpg',
+    imageUrl: '/images/thinal.jpeg',
     socials: { linkedin: 'https://www.linkedin.com/in/thinal-prabasha/?originalSubdomain=lk' }
   },
   {

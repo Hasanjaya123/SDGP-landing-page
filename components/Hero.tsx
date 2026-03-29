@@ -9,9 +9,9 @@ const VIDEO_LINK = "/videos/abstract.mp4";
 const heroMarqueeImages = [
   { src: "https://images.unsplash.com/flagged/photo-1567934150921-7632371abb32?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Abstract Image" },
   { src: "https://plus.unsplash.com/premium_photo-1664013263421-91e3a8101259?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Blue Sculpture" },
-  { src: "https://fs.artdevivre.com/storage/articles/contect-new/vermeer/vermeer-most-famous-painting.jpg", alt: "Girl with a pearl earrings" },
+  { src: "https://images.unsplash.com/photo-1624198376649-c121a452d157?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Girl with a pearl earrings" },
   { src: "https://images.unsplash.com/photo-1615184697985-c9bde1b07da7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Abstract Art" },
-  { src: "https://pet-art.net/assets/images/wildlife-art/scottish-wildcat-cub-oil-painting-wonderment.webp", alt: "Road Art" },
+  { src: "https://images.unsplash.com/photo-1552250575-e508473b090f?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Road Art" },
   { src: "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&q=80&w=600", alt: "Neon Art" },
   { src: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=600", alt: "Abstract Art" },
   { src: "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?auto=format&fit=crop&q=80&w=600", alt: "Eyes" },
@@ -69,7 +69,7 @@ export const Hero: React.FC = () => {
 
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-brand-dark leading-[1.1]">
             Discover the <br />
-            <span className="italic pr-2 font-serif">Soul</span> 
+            <span className="italic pr-2 font-serif text-[#D9A84A]">Soul</span> 
             of Sri Lankan <br /> Art.
           </h1>
 
