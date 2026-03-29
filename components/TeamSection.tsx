@@ -25,23 +25,23 @@ const team: TeamMember[] = [
     role: 'Member',
     bio: '',
     imageUrl: '/images/dulitha.jpeg',
-    socials: { linkedin: 'https://www.linkedin.com/in/dulitha-weerasinghe-6205b0335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
+    socials: { linkedin: 'https://www.linkedin.com/in/dulitha-weerasinghe-6205b0335' }
   },
   {
     id: '4',
     name: 'Nadeesha Damseth',
     role: 'Member',
     bio: '',
-    imageUrl: '',
-    socials: { linkedin: '#' }
+    imageUrl: '/images/nadeesha.jpeg',
+    socials: { linkedin: 'https://www.linkedin.com/in/nadeesha-senanayake-01816b2b1' }
   },
   {
     id: '5',
     name: 'Janindu Nanayakkara',
     role: 'Member',
     bio: '',
-    imageUrl: '',
-    socials: { linkedin: '#' }
+    imageUrl: '/images/janindu.jpeg',
+    socials: { linkedin: 'https://www.linkedin.com/in/janindu-nanayakkara-666816359' }
   },
   {
     id: '6',
