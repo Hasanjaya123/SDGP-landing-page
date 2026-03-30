@@ -11,7 +11,7 @@ const heroMarqueeImages = [
   { src: "https://plus.unsplash.com/premium_photo-1664013263421-91e3a8101259?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Blue Sculpture" },
   { src: "https://images.unsplash.com/photo-1624198376649-c121a452d157?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Girl with a pearl earrings" },
   { src: "https://images.unsplash.com/photo-1615184697985-c9bde1b07da7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Abstract Art" },
-  { src: "https://images.unsplash.com/photo-1552250575-e508473b090f?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Road Art" },
+  { src: "https://images.unsplash.com/photo-1533158326339-7f3cf2404354?q=80&w=768&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Road Art" },
   { src: "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&q=80&w=600", alt: "Neon Art" },
   { src: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=600", alt: "Abstract Art" },
   { src: "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?auto=format&fit=crop&q=80&w=600", alt: "Eyes" },
@@ -81,9 +81,11 @@ export const Hero: React.FC = () => {
             <button className="bg-black text-white px-8 py-4 rounded-full font-bold flex items-center gap-2 hover:bg-[#D9A84A] transition-colors">
              <a href="https://www.soliasart.com/signup" className="text-white no-underline"> Sign Up Now </a> <ArrowRight size={18} />
             </button>
+            <a href="https://www.youtube.com/watch?v=Ona1gC2ccwU"> 
             <button className="flex items-center gap-2 bg-white/80 backdrop-blur-sm px-8 py-4 rounded-full font-bold hover:bg-white transition-colors shadow-sm hover:text-[#D9A84A]">
               <Play size={18} fill="currentColor" /> Watch Demo
             </button>
+            </a>
           </div>
 
           <div className="pt-8 flex items-center gap-12 border-t border-gray-200/50 mt-8">
