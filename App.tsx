@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { ProblemSection } from './components/ProblemSection';
 import { FeaturesGrid } from './components/FeaturesGrid';
+import { ArPreviewSection } from './components/ArPreviewSection';
 import { TeamSection } from './components/TeamSection';
 import { PartnersSection } from './components/PartnersSection';
 import { Footer } from './components/Footer';
@@ -15,6 +16,7 @@ const App: React.FC = () => {
       <Hero />
       <ProblemSection />
       <FeaturesGrid />
+      <ArPreviewSection />
       <TeamSection />
       <PartnersSection />
       <Footer />
