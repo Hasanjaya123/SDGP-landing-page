@@ -17,7 +17,6 @@ export const Navbar: React.FC = () => {
     { name: 'Mission', href: '#mission' },
     { name: 'The Why', href: '#problem' },
     { name: 'Features', href: '#features' },
-    { name: 'AR Try-On', href: '#ar-try-on' },
     { name: 'Team', href: '#team' },
     { name: 'Partners', href: '#partners' },
   ];
