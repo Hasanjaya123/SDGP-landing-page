@@ -70,9 +70,12 @@ export const Navbar: React.FC = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
-          <button className="bg-black text-white px-7 py-2.5 rounded-full text-sm font-bold shadow-lg hover:bg-[#D9A84A] transition-colors">
-            <a href="https://soliasart.com/login" className="text-white no-underline">Login</a>
-          </button>
+          <a 
+            href="https://soliasart.com/login" 
+            className="bg-black text-white px-7 py-2.5 rounded-full text-sm font-bold shadow-lg hover:bg-[#D9A84A] transition-colors inline-block text-center no-underline"
+          >
+            Login
+          </a>
         </div>
 
         {/* Mobile Toggle */}
@@ -97,9 +100,12 @@ export const Navbar: React.FC = () => {
               {link.name}
             </a>
           ))}
-          <button className="w-full bg-black text-white py-4 rounded-xl font-bold shadow-lg hover:bg-[#D9A84A] transition-colors">
-            <a href="https://soliasart.com/login" className="text-white no-underline">Login</a>
-          </button>
+          <a 
+            href="https://soliasart.com/login" 
+            className="w-full bg-black text-white py-4 rounded-xl font-bold shadow-lg hover:bg-[#D9A84A] transition-colors text-center block no-underline"
+          >
+            Login
+          </a>
         </div>
       )}
     </nav>
