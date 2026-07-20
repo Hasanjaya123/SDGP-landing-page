@@ -93,9 +93,9 @@ export const PartnersSection: React.FC = () => {
                   <MapPin size={24} />
                 </div>
                 <h3 className="text-brand-dark font-bold text-lg mb-2">Visit Us</h3>
-                <p className="text-gray-500 text-sm mb-4">Our Colombo Headquarters</p>
+                <p className="text-gray-500 text-sm mb-4">Informatics Institute of Technology (IIT)</p>
                 <p className="text-brand-dark font-semibold text-sm">
-                  No. 45, Galle Road, Colombo 03, Sri Lanka
+                  435 Galle Rd, Colombo, Sri Lanka
                 </p>
               </div>
             </div>
