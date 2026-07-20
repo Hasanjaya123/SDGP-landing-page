@@ -3,21 +3,21 @@ import { Users, SearchX, AlertCircle, CheckCircle2 } from 'lucide-react';
 
 export const ProblemSection: React.FC = () => {
   return (
-    <section id="problem" className="py-24 bg-gradient-to-b from-brand-cream via-white to-brand-cream relative overflow-hidden">
+    <section id="problem" className="py-24 bg-white relative overflow-hidden">
       {/* Decorative BG elements */}
       <div className="absolute top-40 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-orange/20 to-transparent"></div>
-      
+
       <div className="container mx-auto px-6 relative z-10">
         {/* Header - The Situation */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="text-brand-fuchsia font-bold tracking-widest text-xs uppercase mb-2 block">The Context</span>
+          <span className="text font-bold tracking-widest text-xs uppercase mb-2 block">The Context</span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-dark mb-6">The Untapped Canvas</h2>
           <p className="text-lg text-gray-600 leading-relaxed mb-8">
             Sri Lanka possesses a deep and vibrant pool of creative talent, from traditional artisans and young painters to dynamic street artists.
           </p>
           <div className="p-8 bg-gradient-to-r from-red-50 to-orange-50 rounded-2xl border-l-4 border-red-500 shadow-sm text-left relative overflow-hidden">
             <div className="absolute -right-10 -top-10 text-red-100 opacity-50 transform rotate-12">
-               <AlertCircle size={150} />
+              <AlertCircle size={150} />
             </div>
             <h3 className="font-bold text-red-900 mb-2 flex items-center gap-2 text-lg relative z-10">
               <AlertCircle size={24} className="text-red-500" />
@@ -85,7 +85,7 @@ export const ProblemSection: React.FC = () => {
           {/* Decorative circles */}
           <div className="absolute top-0 right-0 w-80 h-80 bg-brand-violet/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 animate-pulse-slow"></div>
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-brand-orange/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 animate-pulse-slow"></div>
-          
+
           <div className="relative z-10 max-w-4xl mx-auto space-y-8">
             <h3 className="text-3xl font-serif font-bold">The Economic & Cultural Cost</h3>
             <p className="text-gray-300 text-xl leading-relaxed font-light">

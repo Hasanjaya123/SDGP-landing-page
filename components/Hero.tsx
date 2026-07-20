@@ -2,7 +2,7 @@ import React from 'react';
 import { Play, ArrowRight } from 'lucide-react';
 
 
-import { ThreeDMarquee } from '../components/lightswind/3d-marquee'; 
+import { ThreeDMarquee } from '../components/lightswind/3d-marquee';
 
 const VIDEO_LINK = "/videos/abstract.mp4";
 
@@ -33,43 +33,39 @@ export const Hero: React.FC = () => {
   const isDirectFile = VIDEO_LINK.match(/\.(mp4|webm|ogg)$/);
 
   return (
-    <section id="mission" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-brand-cream w-full">
-      
+    <section id="mission" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-white w-full">
+
       {/* 1. BACKGROUND VIDEO LAYER */}
       <div className="absolute inset-0 w-full h-full z-0">
         {videoId ? (
           <div className="absolute inset-0 w-full h-full pointer-events-none">
-             <iframe 
-                className="w-full h-full object-cover scale-150 md:scale-100"
-                src={`${VIDEO_LINK}`}
-                title="Background Video"
-                allow="autoplay; encrypted-media" 
-                style={{ border: 'none' }} 
-             />
+            <iframe
+              className="w-full h-full object-cover scale-150 md:scale-100"
+              src={`${VIDEO_LINK}`}
+              title="Background Video"
+              allow="autoplay; encrypted-media"
+              style={{ border: 'none' }}
+            />
           </div>
         ) : isDirectFile ? (
-            <video autoPlay loop muted playsInline className="absolute w-full h-full object-cover">
-                <source src={VIDEO_LINK} type="video/mp4" />
-            </video>
+          <video autoPlay loop muted playsInline className="absolute w-full h-full object-cover">
+            <source src={VIDEO_LINK} type="video/mp4" />
+          </video>
         ) : null}
       </div>
 
       {/* 2. GRADIENT OVERLAY - Kept subtle for text readability */}
-      <div className="absolute inset-0 z-2 bg-gradient-to-r from-brand-cream/95 via-brand-cream/60 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 z-2 bg-gradient-to-r from-white/95 via-white/60 to-transparent pointer-events-none" />
 
       {/* 3. CONTENT LAYER */}
       <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10 h-full">
-        
+
         {/* Left Column: Text Content (Unchanged) */}
         <div className="space-y-8 max-w-2xl pt-10 lg:pt-0">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-gray-200 shadow-sm text-xs font-bold tracking-wider uppercase">
-            <span className="w-2 h-2 rounded-full bg-black"></span>
-            Seed Round Open
-          </div>
 
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-brand-dark leading-[1.1]">
             Discover the <br />
-            <span className="italic pr-2 font-serif text-[#D9A84A]">Soul</span> 
+            <span className="italic pr-2 font-serif text-[#D9A84A]">Soul</span>
             of Sri Lankan <br /> Art.
           </h1>
 
@@ -78,13 +74,13 @@ export const Hero: React.FC = () => {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <a 
-              href="https://www.soliasart.com/signup" 
-              className="bg-black text-white px-8 py-4 rounded-full font-bold inline-flex items-center gap-2 hover:bg-[#D9A84A] transition-colors no-underline"
+            <a
+              href="https://www.soliasart.com/signup"
+              className="group bg-[#E5B842] text-white px-8 py-4 rounded-full font-bold inline-flex items-center gap-2 hover:bg-[#D4A733] transition-all duration-300 no-underline shadow-lg transform hover:scale-105"
             >
-              Sign Up Now <ArrowRight size={18} />
+              Sign Up Now <ArrowRight size={18} className="transition-transform duration-300 group-hover:translate-x-1.5" />
             </a>
-            <a 
+            <a
               href="https://www.youtube.com/watch?v=Ona1gC2ccwU"
               className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-8 py-4 rounded-full font-bold hover:bg-white transition-colors shadow-sm hover:text-[#D9A84A] no-underline"
             >
@@ -94,12 +90,12 @@ export const Hero: React.FC = () => {
 
           <div className="pt-8 flex items-center gap-12 border-t border-gray-200/50 mt-8">
             <div>
-              <p className="text-3xl font-bold font-serif">500+</p>
+              <p className="text-3xl font-bold font-serif">50+</p>
               <p className="text-sm font-semibold text-gray-600">Verified Artists</p>
             </div>
             <div className="w-px h-12 bg-gray-300"></div>
             <div>
-              <p className="text-3xl font-bold font-serif">2M</p>
+              <p className="text-3xl font-bold font-serif">100 +</p>
               <p className="text-sm font-semibold text-gray-600">Arts</p>
             </div>
           </div>
@@ -107,10 +103,10 @@ export const Hero: React.FC = () => {
 
         {/* --- RIGHT COLUMN: MARQUEE --- */}
         <div className="relative h-[700px] hidden lg:flex items-center justify-center w-full">
-          
-           <div className="transform scale-90 w-full">
-             <ThreeDMarquee images={heroMarqueeImages} />
-           </div>
+
+          <div className="transform scale-90 w-full">
+            <ThreeDMarquee images={heroMarqueeImages} />
+          </div>
 
         </div>
 
